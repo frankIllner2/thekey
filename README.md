@@ -6,9 +6,6 @@ git clone https://github.com/frankIllner2/thekey.git
 Kopieren sie die Dateien in einen Ordner z.B. addForm 
 Verschieben Sie den Ordner addForm in das wp-content/plugins-Verzeichnis Ihrer WordPress-Installation.
 
-## Verschieben Sie das Plugin in das WordPress-Plugins-Verzeichnis:
-Kopieren Sie die Dateien in einen Ordner, z.B. `addForm`, und verschieben Sie den Ordner `addForm` in das `wp-content/plugins`-Verzeichnis Ihrer WordPress-Installation.
-
 ## Aktivieren Sie das Plugin:
 Gehen Sie zu Ihrem WordPress-Dashboard > Plugins, suchen Sie das neu hinzugefügte Plugin und klicken Sie auf "Aktivieren".
 
