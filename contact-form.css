@@ -1,0 +1,61 @@
+/* Kontaktformular-Stil */
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-form p {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease-in-out;
+    color: #0056b3;
+}
+
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.success {
+    background-color: #0056b3;
+    border: 1px solid #007bff;
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+}
